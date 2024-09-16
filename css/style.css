@@ -92,3 +92,68 @@ p {
         color: var(--light-color);
     }
 }
+
+/* Lab 2 styles */
+.logo-holder {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#logo {
+    height: 3em;
+    width: auto;
+    float: left;
+    margin-right: .5em;
+}
+
+.sub-head {
+    display: flex;
+    align-items: center;
+}
+
+/* Lab 3 styles */
+
+.hide-me {
+    display: none;
+}
+
+.post span {
+    color: coral
+}
+
+.block-div, .block {
+    display: block;
+    color: coral;
+    background-color: rgb(40, 14, 111);
+    border-radius: 16px;
+    border: 1px black;
+    padding: 1em;
+}
+
+.block {
+    margin: 1em 0;
+}
+
+.inline {
+    display:inline;   
+}
+
+.inline-block {
+    display: inline-block;
+    text-transform:uppercase;
+    padding: 0.2em 0.8em;
+    color: black !important;
+    background-color: coral;
+    transform: rotate(-8deg);
+    font-weight: 800;
+    font-variation-settings: 
+     "wdth" 75;
+}
+
+.static {
+    position: static;
+    border: 1px solid var(--dark-color);
+}
